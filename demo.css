@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-size:0;
+    text-decoration: none;
+}
+
+.wrapper{
+    position: relative;
+    width:700px;
+    height:400px;
+    margin:70px auto;
+    overflow: hidden;
+}
+.wrapper ul{
+    position: relative;
+    left:0;
+    top:0;
+    width:3500px;
+    height:100%;
+}
+.wrapper .picBox li{
+    display:inline-block;
+    width:700px;
+    height:100%;
+    opacity: 0;
+}
+.wrapper .picBox li.first{
+    opacity: 1;
+}
+.wrapper li img{
+    width:100%;
+    height:100%;
+}
+
+.wrapper .btn{
+    position: absolute;
+    width:700px;
+    height:70px;
+    top:45%;
+    left:0;
+   
+}
+.wrapper .btn a{
+    display:block;
+    width:40px;
+    height:70px;
+    background-color:rgba(0,0,0,0.5);
+    color:#fff;
+    font-size:30px;
+    text-align: center;
+    line-height:70px;
+}
+.wrapper .btn a.left{
+    float:left;
+}
+
+.wrapper .btn a.right{
+    float:right;
+}
+
+.wrapper .list{
+    position: absolute;
+    width:700px;
+    height:20px;
+    bottom:30px;
+    left:0;
+}
+
+.wrapper .list ul{
+    width:100%;
+    text-align: center;
+}
+
+.wrapper .list li{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color:#fff;
+    margin:0 10px;
+    cursor: pointer;
+}
+
+.wrapper .list li.active{
+    background-color:red;
+}
